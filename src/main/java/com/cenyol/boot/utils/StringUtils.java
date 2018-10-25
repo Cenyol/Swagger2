@@ -7,6 +7,10 @@ import java.util.Random;
  * @date 2018/10/22 16:07
  */
 public class StringUtils {
+    public static int random() {
+        return new Random().nextInt(10);
+    }
+
     public static String baseCharString=
             "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789~!@#$%^&*()_+=-[]{};':,./<>?";
 
